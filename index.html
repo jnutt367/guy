@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            background-image: url('guy-bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 15px;
+        }
+        
+        main {
+            height: 2000px;
+        }
+        
+        img {
+            height: 50px;
+            width: 100px;
+        }
+        
+        .coco {
+            text-align: center;
+        }
+        
+        @media (max-width: 800px) {
+            img {
+                height: 50px;
+                width: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 class="coco">THIS GUY</h1>
+        <img class="second" src="stars.svg">
+        <img class="stars" src="stars.svg">
+
+        <img class="first" src="dude.jpg">
+        <img class="stars" src="stars.svg">
+        <img class="second" src="stars.svg">
+    </main>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js" integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ==" crossorigin="anonymous"></script>
+    <script src="gsap.js"></script>
+</body>
+
+</html>
